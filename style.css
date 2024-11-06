@@ -1,0 +1,279 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #f3d7b7;
+  height: calc(100vh);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.06px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 0px;
+  align-items: center;
+}
+
+.showcase {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 216px;
+}
+
+.showcase-texts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 47px;
+  align-items: start;
+  margin-top: 130px;
+}
+.showcase-texts h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  color: #000000;
+  width: 447px;
+}
+
+.showcase-texts p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  width: 464px;
+}
+
+
+.showcase-texts button{
+  background-color: #0A775F;
+  border-radius: 100px;
+  color: white;
+  border: none;
+  padding: 16px 24px;
+  text-transform: uppercase;
+}
+
+
+.showcase-images{
+  position: relative;
+  margin-top: 135px;
+  
+  
+}
+
+
+
+.showcase-images img:nth-child(1){
+  position: absolute;
+  top: -200px;
+  left: 60px;
+}
+
+
+.showcase-images img:nth-child(2){
+  position: absolute;
+  top: -290px;
+  left: -20px;
+}
+
+.showcase-images img:nth-child(2):hover{
+    animation-name: aylanish;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+
+
+
+
+
+@keyframes aylanish {
+ from{
+  transform: rotate(0deg);
+ }to{
+  transform: rotate(360deg);
+ }
+}
+section h2{
+  text-transform: uppercase;
+  margin-top: 300px;
+font-size: 50px;
+font-weight: 700;
+line-height: 58.59px;
+text-align: center;
+
+}
+.danche{
+  display: flex;
+  gap: 117.32px;
+  margin-left: 163.45px;
+  align-items: center;
+  margin-top: 42px;
+}
+.box1{
+  text-transform: uppercase;
+font-size: 48px;
+font-weight: 500;
+line-height: 56.25px;
+margin-bottom: 10px;
+
+
+
+}
+.danche img:hover{
+  transform: scale(1.5);
+  transition: 3s;
+}
+.danche1{
+  display: flex;
+  flex-direction:row-reverse ;
+  gap: 117.32px;
+  margin-left: 163.45px;
+  align-items: center;
+  margin-top: 42px;
+  justify-content: center;
+}
+.danche1 img:hover{
+  transform: scale(1.5);
+  transition: 3s;
+}
+.danche3{
+  display: flex;
+  
+  gap: 117.32px;
+  margin-left: 163.45px;
+  align-items: center;
+  margin-top: 42px;
+ 
+}
+.danche3 img:hover{
+  transform: scale(1.5);
+  transition: 3s;
+}
+.danche4{
+  display: flex;
+  gap: 117.32px;
+  margin-left: 163.45px;
+  align-items: center;
+  margin-top: 42px;
+}
+.img1{
+  width: 451.25px;
+height: 375px;
+
+
+}
+.footer-box{
+  background: #F3D7B7;
+  width: 1440px;
+  height: 160px;
+ 
+  
+}
+.div-box{
+  display: flex;
+  align-items: center;
+  padding-top: 71px;
+
+  margin-left: 42px;
+
+
+}
+.ul-box{
+  display: flex;
+  gap: 30px;
+  text-transform: uppercase;
+  margin-left: 254px;
+  color: #333333;
+}
+.footer-box1{
+  display: flex;
+  gap: 30px;
+  margin-left: 331px;
+
+}
+
+.section5{
+  display: flex;
+  gap: 318.68px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160.29px;
+}
+.ourcase h3{
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56.25px;
+  text-align: left;
+  
+}
+.ourcase p{
+  color:#333333;
+  margin-top: 64px;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+
+}
+.quality{
+  display: flex;
+  background: #C99B67;
+  width: 1440px;
+  height: 510px;
+  position: relative;
+  margin-top: 210px;
+  color: white;
+  align-items: center;
+  
+}
+.quality img{
+  width: 566px;
+height: 552px;
+position: absolute;
+top: -120px;
+left: 750px;
+
+
+}
+.quality1{
+  margin-left: 50px;
+}
+.quality1 h3{
+  margin-bottom: 28px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58.59px;
+  text-align: left;
+  
+}
+
